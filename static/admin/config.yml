@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: unls/techhugo
-  api_root: https://api.bitbucket.org/2.0
+  name: git-gateway
   accept_roles:
     - admin
     - author
