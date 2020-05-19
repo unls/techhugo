@@ -1,0 +1,72 @@
+---
+about:
+  enable: true
+  image: images/company/about.jpg
+  title: Creating better things without being constrained by conventional ideas
+  content: "'I want to be free to live in the limited time of school!' <br /> It is
+    a club activity that was formed by such people.<br /> You can do what you want
+    to do, such as making games, editing videos, or doing electronic crafts.<br />Other
+    activities include a flight simulator experience and creating metal and woodwork."
+features:
+  enable: true
+  title: What we do
+  feature_item:
+  - icon: ion-ios-game-controller-b
+    name: Game production
+    content: 2D / 3D game production <br />using Unity and action editor
+  - icon: ion-compose
+    name: Website creation
+    content: Introduction of events and club activities, site creation for personal
+      use, etc.
+  - icon: ion-videocamera
+    name: Video editing
+    content: Video production of game commentary, commentary videos, animations, etc.
+  - icon: ion-hammer
+    name: Metalwork / woodwork
+    content: Processing metal and wood to make what you want
+  - icon: ion-flash
+    name: Electronic work
+    content: Electronic work using Raspberry pi
+  - icon: ion-plane
+    name: Flight simulator experience
+    content: Flight simulator operated with various equipment
+testimonial:
+  enable: false
+mission_vision:
+  enable: false
+  tabs:
+  - name: Vision
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis
+      ducimus facere repellat harum, eius cupiditate, aliquam aut deserunt. Nemo illo
+      ex impedit autem quod nobis architecto, velit quasi, aut voluptas porro natus.
+      Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus voluptatum
+      aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis,
+      cum facere iusto, modi cumque consectetur saepe. Officia, molestiae tempore!
+      Consequatur ipsa consequuntur saepe suscipit vero laudantium, mollitia, quaerat
+      soluta nihil non tempore, quos dignissimos quasi ab officiis illum numquam quibusdam
+      ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo.
+  - name: Mission
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis
+      ducimus facere repellat harum, eius cupiditate, aliquam aut deserunt. Nemo illo
+      ex impedit autem quod nobis architecto, velit quasi, aut voluptas porro natus.
+      Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus voluptatum
+      aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis,
+      cum facere iusto, modi cumque consectetur saepe. Officia, molestiae tempore!
+      Consequatur ipsa consequuntur saepe suscipit vero laudantium, mollitia, quaerat
+      soluta nihil non tempore, quos dignissimos quasi ab officiis illum numquam quibusdam
+      ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo.
+  - name: Approach
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis
+      ducimus facere repellat harum, eius cupiditate, aliquam aut deserunt. Nemo illo
+      ex impedit autem quod nobis architecto, velit quasi, aut voluptas porro natus.
+      Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus voluptatum
+      aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis,
+      cum facere iusto, modi cumque consectetur saepe. Officia, molestiae tempore!
+      Consequatur ipsa consequuntur saepe suscipit vero laudantium, mollitia, quaerat
+      soluta nihil non tempore, quos dignissimos quasi ab officiis illum numquam quibusdam
+      ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo.
+cta:
+  enable: true

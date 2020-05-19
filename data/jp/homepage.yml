@@ -1,0 +1,10 @@
+############################### Banner ##############################
+banner:
+  enable : true
+  bg_image : "images/slider-bg.webp"
+  title : "技術科部公式サイト"
+  content : "技術科部は、自分のしたいことのできる自由な部活です。"
+  button:
+    enable : true
+    label : "技術科部について"
+    link : "about"

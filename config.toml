@@ -1,0 +1,131 @@
+DefaultContentLanguage = "jp"
+baseURL = "https://www.tech-hugo.cf"
+disableLanguages = []
+disqusShortname = "intertech-1"
+paginate = "4"
+summaryLength = "30"
+theme = "airspace-hugo"
+title = "技術科部公式"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 [Technical Club](https://www.tech-hugo.cf) All Rights Reserved"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+title = "Technical Club Official"
+weight = 2
+[[Languages.en.menu.footer]]
+URL = "about"
+name = "About"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 2
+[[Languages.en.menu.footer]]
+URL = "admin"
+name = "ControlPanel"
+weight = 3
+[[Languages.en.menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+[[Languages.en.menu.main]]
+URL = "project"
+name = "Project"
+weight = 2
+[[Languages.en.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+[[Languages.en.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[Languages.jp]
+contentDir = "content/japanese"
+copyright = "Copyright &copy; 2020 [技術科部](https://www.tech-hugo.cf) All Rights Reserved"
+home = "Home"
+languageCode = "ja-jp"
+languageName = "Jp"
+title = "技術科部公式"
+weight = 1
+[[Languages.jp.menu.footer]]
+URL = "about"
+name = "技術科部について"
+weight = 1
+[[Languages.jp.menu.footer]]
+URL = "contact"
+name = "お問い合わせ"
+weight = 2
+[[Languages.jp.menu.footer]]
+URL = "admin"
+name = "管理画面"
+weight = 3
+[[Languages.jp.menu.main]]
+URL = "about"
+name = "技術科部について"
+weight = 1
+[[Languages.jp.menu.main]]
+URL = "project"
+name = "企画"
+weight = 2
+[[Languages.jp.menu.main]]
+URL = "blog"
+name = "ブログ"
+weight = 3
+[[Languages.jp.menu.main]]
+URL = "contact"
+name = "お問い合わせ"
+weight = 4
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+author = "Wamo"
+contact_form_action = "https://formspree.io/mayjrrko"
+description = "Technical Club Official Site"
+email = "ainznino@vcuc.ga"
+google_analitycs_id = "UA-111958560-19"
+location = "Japan, Chiba"
+logo = "images/logo.png"
+mobile = "None"
+[params.gmap]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "https://identity.netlify.com/v1/netlify-identity-widget.js"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = true
+preloader = ""
+[params.search]
+enable = true
+[[params.social]]
+icon = "ion-social-twitter-outline"
+link = "https://twitter.com/tech_chiba"

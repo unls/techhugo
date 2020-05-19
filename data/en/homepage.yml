@@ -1,0 +1,11 @@
+---
+banner:
+  enable: true
+  bg_image: images/slider-bg.webp
+  title: Technical Club <br /> Official Site
+  content: The Technology Club is a free club where you can do whatever you want to
+    do.
+  button:
+    enable: true
+    label: About us
+    link: about
