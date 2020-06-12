@@ -15,6 +15,8 @@ image: images/blog/blog-post-1.jpg
 categories:
   - Company News
 ---
+もし新しく技術科部に入ったら一応以下のことを確認してください。
+
 ## 1.パスワードの確認
 
 技術科部で配られる紙に書いてあるパスワードを確認してください。
