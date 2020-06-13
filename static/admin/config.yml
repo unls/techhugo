@@ -10,103 +10,13 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - label: "ブログ（日本語）"
-    name: "jp-blog"
-    folder: "/content/japanese/blog"
+  - label: "企画"
+    name: "product"
+    folder: "/content/product"
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "投稿タイプ", name: "type", widget: "hidden", default: "blog"}
       - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "著者", name: "author", widget: "select", options: ["Wamo", "Chizuchizu", "Yayoi mizuha", "Kokastar"]}
-      - {label: "タグ", name: "tags", widget: "list", default: ["Technology"]}
-      - {label: "カテゴリー", name: "category", widget: "list", default: ["News"]}
-      - {label: "説明", name: "description", widget: "string"}
       - {label: "投稿日時", name: "date", widget: "datetime"}
-      - {label: "サムネイル画像", name: "image", widget: "image"}
-      - {label: "バックグラウンド画像", name: "bg_image", widget: "image"}
-      - {label: "本文", name: "body", widget: "markdown"}
-  - label: "ブログ（英語）"
-    name: "en-blog"
-    folder: "/content/english/blog"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "投稿タイプ", name: "type", widget: "hidden", default: "blog"}
-      - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "著者", name: "author", widget: "select", options: ["Wamo", "Chizuchizu", "Yayoi mizuha", "Kokastar"]}
-      - {label: "タグ", name: "tags", widget: "list", default: ["Technology"]}
-      - {label: "カテゴリー", name: "category", widget: "list", default: ["News"]}
-      - {label: "説明", name: "description", widget: "string"}
-      - {label: "投稿日時", name: "date", widget: "datetime"}
-      - {label: "サムネイル画像", name: "image", widget: "image"}
-      - {label: "バックグラウンド画像", name: "bg_image", widget: "image"}
-      - {label: "本文", name: "body", widget: "markdown"}
-  - label: "プロジェクト（日本語）"
-    name: "jp-proj"
-    folder: "/content/japanese/project"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "カテゴリー", name: "category", widget: "list", default: ["ゲーム制作"]}
-      - {label: "説明", name: "description", widget: "string"}
-      - {label: "サムネイル画像", name: "image", widget: "image"}
-      - {label: "バックグラウンド画像", name: "bg_image", widget: "image"}
-      - {label: "本文", name: "body", widget: "markdown"}
-      - label: "詳細情報"
-        name: "info"
-        widget: object
-        fields:
-          - {label: "タイトル", name: "label", widget: "string"}
-          - {label: "内容", name: "info", widget: "string"}
-  - label: "プロジェクト（英語）"
-    name: "en-proj"
-    folder: "/content/english/project"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "カテゴリー", name: "category", widget: "list", default: ["Game Creation"]}
-      - {label: "説明", name: "description", widget: "string"}
-      - {label: "サムネイル画像", name: "image", widget: "image"}
-      - {label: "バックグラウンド画像", name: "bg_image", widget: "image"}
-      - {label: "本文", name: "body", widget: "markdown"}
-      - label: "詳細情報"
-        name: "info"
-        widget: object
-        fields:
-          - {label: "タイトル", name: "label", widget: "string"}
-          - {label: "内容", name: "info", widget: "string"}
-  - label: "著者（日本語）"
-    name: "jp-auth"
-    folder: "/content/japanese/author"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "著者名", name: "title", widget: "string"}
-      - {label: "Eメール", name: "email", widget: "string"}
-      - {label: "バックグラウンド画像", name: "bg_image", widget: "image"}
-      - {label: "本文", name: "body", widget: "markdown"}
-      - label: "アイコン"
-        name: "social"
-        widget: object
-        fields:
-          - {label: "アイコン（ionicons）", name: "icon", widget: "string"}
-          - {label: "リンク", name: "link", widget: "string"}
-  - label: "著者（英語）"
-    name: "en-auth"
-    folder: "/content/english/author"
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "著者名", name: "title", widget: "string"}
-      - {label: "Eメール", name: "email", widget: "string"}
-      - {label: "バックグラウンド画像", name: "bg_image", widget: "image"}
-      - {label: "本文", name: "body", widget: "markdown"}
-      - label: "アイコン"
-        name: "social"
-        widget: object
-        fields:
-          - {label: "アイコン（ionicons）", name: "icon", widget: "string"}
-          - {label: "リンク", name: "link", widget: "string"}
+      - {label: "下書き", name: "draft", widget: "boolean", default: false}
+      - {label: "掲載", name: "featured", widget: "boolean", default: true}

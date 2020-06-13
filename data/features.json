@@ -1,0 +1,17 @@
+[
+  {
+    "title": "自由に会議",
+    "description":"DiscordやZoomなどを使った新しい会議のカタチ",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "モノを制作",
+    "description": "自分が作りたいと思ったモノを自由に作ろう。",
+    "image": "images/features/noun_The Process_1885341.svg"
+  },
+  {
+    "title": "制作物の発表",
+    "description": "良いものが出来上がったら、それを周りに発表しよう。",
+    "image": "images/features/noun_3d modeling_1885342.svg"
+  }
+]
