@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: '技術科部について'
 menu: 'main'
 ---
 

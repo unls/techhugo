@@ -6,7 +6,8 @@ theme = "hugo-serif-theme"
 
 [params]
   # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
-  google_analytics_id = ""
+  title="Home | 技術科部"
+  google_analytics_id = "UA-111958560-20"
   google_tag_manager_id = ""
 
   [params.logo]
@@ -15,12 +16,12 @@ theme = "hugo-serif-theme"
     alt = "Technical Club Official Site"
 
   [params.homepage_meta_tags]
-    meta_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
-    meta_og_title = "Hugo Serif Theme"
+    meta_description = "Technical Club Official Site"
+    meta_og_title = "技術科部"
     meta_og_type = "website"
     meta_og_url = "https://www.tech-hugo.cf"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
-    meta_og_description = "Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+    meta_og_description = "Technical Club Official Site"
     meta_twitter_card = "summary"
     meta_twitter_site = "@tech_chiba"
     meta_twitter_creator = "@tech_chiba"

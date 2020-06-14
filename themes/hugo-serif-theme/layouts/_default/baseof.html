@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
   {{ partial "google-tag-manager.html" . }}
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
   <link rel="icon" href="{{ "favicon-32x32.png" | relURL }}">
@@ -51,7 +51,7 @@
   {{ partial "google-analytics.html" . }}
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 </body>
 
 </html>
