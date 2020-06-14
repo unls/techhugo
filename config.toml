@@ -1,4 +1,4 @@
-baseURL = "www.tech-hugo.cf"
+baseURL = "/"
 languageCode = "ja-jp"
 title = "技術科部"
 themesDir = "./themes"
