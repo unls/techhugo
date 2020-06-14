@@ -38,6 +38,16 @@ theme = "hugo-serif-theme"
       url = "/team/"
       weight = 2
 
+  [[menu.main]]
+      name = "技術科部について"
+      url = "/about/"
+      weight = 3
+
+  [[menu.main]]
+      name = "お問い合わせ"
+      url = "/contact/"
+      weight = 4
+
   # Footer Menu
   [[menu.footer]]
     name = "ホーム"
