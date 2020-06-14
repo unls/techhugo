@@ -20,3 +20,4 @@ collections:
       - {label: "投稿日時", name: "date", widget: "datetime"}
       - {label: "下書き", name: "draft", widget: "boolean", default: false}
       - {label: "掲載", name: "featured", widget: "boolean", default: true}
+      - {label: "本文", name: "body", widget: "markdown"}
