@@ -1,0 +1,11 @@
+<div class="blog blog-summary box2">
+        {{ if .Params.image }}
+        <div class="blog-image col-md-4">
+            <img alt="Photo of {{ .Title }}" class="img-fluid" src="{{ .Params.image | relURL }}" />
+        </div>
+        {{ end }}
+        <div class="blog-content col-md-8">
+            <h2 class="blog-title">{{ .Title }}</h2>
+            <div class="blog-snippet"><p>{{ .Description }}</p></div>
+        </div>
+</div>

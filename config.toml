@@ -34,8 +34,8 @@ theme = "hugo-serif-theme"
       weight = 1
 
   [[menu.main]]
-      name = "チーム"
-      url = "/team/"
+      name = "ブログ"
+      url = "/blog/"
       weight = 2
 
   [[menu.main]]

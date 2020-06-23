@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap Grid v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -3962,6 +3963,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box; }
+  input[type="submit"]::-webkit-search-decoration,
+  input[type="button"]::-webkit-search-decoration {
+    display: none; }
+  input[type="submit"]::focus,
+  input[type="button"]::focus {
+    outline-offset: -2px; }
+
 a {
   color: #106be0; }
 
@@ -4650,24 +4666,51 @@ blockquote {
     margin-bottom: 0;
     margin-top: auto; }
 
-.team-summary {
+.blog-summary {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row; }
-  .team-summary .team-image {
-    margin-right: 10px; }
-    .team-summary .team-image img {
-      border-radius: 50%;
-      height: 100px;
-      width: 100px; }
-  .team-summary .team-meta {
+  .blog-summary .blog-meta {
     flex: 1; }
-    .team-summary .team-meta h2 {
+    .blog-summary .blog-meta h2 {
       margin: 0; }
-    .team-summary .team-meta p {
+    .blog-summary .blog-meta p {
       margin: 0; }
-  .team-summary .team-content {
+  .blog-summary .blog-content {
     flex: 1 0 100%; }
+
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap; }
+
+@media (min-width: 992px) {
+  .blog-image {
+    width: 80%; }
+    .blog-image img {
+      width: 80%; } }
+
+.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #FFF;
+  border: solid 3px #106BE0;
+  /*線*/
+  border-radius: 5px;
+  /*角の丸み*/ }
+
+.box2 p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+@media (max-width: 375px) {
+  .row {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+.simple {
+  padding-top: 30px;
+  padding-bottom: 20px; }
 
 .page-services-single .content > p:first-of-type {
   font-size: 1.6rem;
