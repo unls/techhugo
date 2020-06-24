@@ -6,6 +6,7 @@
         {{ end }}
         <div class="blog-content col-md-8">
             <h2 class="blog-title">{{ .Title }}</h2>
-            <div class="blog-snippet"><p>{{ .Description }}</p></div>
+            <div class="blog-snippet"><p>{{ .Description }}</p></div><br>
+            <div class="blog-datetime"><p>{{ .Date.Format "2006/01/02" }}</p></div>
         </div>
 </div>

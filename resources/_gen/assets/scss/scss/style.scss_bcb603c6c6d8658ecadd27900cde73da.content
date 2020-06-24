@@ -4677,11 +4677,17 @@ blockquote {
     .blog-summary .blog-meta p {
       margin: 0; }
   .blog-summary .blog-content {
-    flex: 1 0 100%; }
+    flex: 1 0 100%;
+    position: relative; }
 
 .row-eq-height {
   display: flex;
   flex-wrap: wrap; }
+
+.blog-datetime {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
 
 @media (min-width: 992px) {
   .blog-image {
