@@ -17,10 +17,10 @@ theme = "hugo-serif-theme"
 
   [params.homepage_meta_tags]
     meta_description = "Technical Club Official Site"
-    meta_og_title = "技術科部"
+    meta_og_title = "千葉大学教育学部附属中学校 技術科部"
     meta_og_type = "website"
-    meta_og_url = "https://www.tech-hugo.cf"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+    meta_og_url = "https://www.tclb.cf"
+    meta_og_image = "https://www.tclb.cf/images/tn.png"
     meta_og_description = "Technical Club Official Site"
     meta_twitter_card = "summary"
     meta_twitter_site = "@tech_chiba"
