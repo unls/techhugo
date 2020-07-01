@@ -60,8 +60,8 @@ theme = "hugo-serif-theme"
       weight = 2
 
   [[menu.footer]]
-    name = "管理画面"
-    url = "/admin/"
+    name = "中学校公式サイト"
+    url = "http://www.jr.chiba-u.jp/"
       weight = 3
 
 [markup]
