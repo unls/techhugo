@@ -4666,6 +4666,14 @@ blockquote {
     margin-bottom: 0;
     margin-top: auto; }
 
+.feature {
+  transition-duration: 0.5s; }
+
+.feature:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+  transition-duration: 0.5s; }
+
 .blog-summary {
   display: flex;
   flex-wrap: wrap;
