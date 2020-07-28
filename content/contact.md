@@ -7,7 +7,7 @@ menu: 'main'
 
 お問い合わせの際は、以下のフォームに記入してください。
 
-<form action="https://formspree.io/mayjrrko" method="post">
+<form name="contact" method="post" netlify>
     <div class="cp_iptxt">
         <input type="text" placeholder="お名前" name="name" required>
     </div>
