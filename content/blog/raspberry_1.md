@@ -176,7 +176,7 @@ Project: hogehoge/Python Interpreterに入る
 
 #### コードを書いてデプロイする
 
-Tools/Deployment/Upload to pi@192.xxx.x.xx
+Tools/Deployment/Upload to pi&#64;192.xxx.x.xx
 
 を押しましょう。逆にダウンロードも可能です。
 
