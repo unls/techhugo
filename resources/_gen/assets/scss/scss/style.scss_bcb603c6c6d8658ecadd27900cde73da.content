@@ -4501,19 +4501,22 @@ blockquote {
       letter-spacing: 1.8px;
       font-weight: 400; } }
 .content table {
-  width: 100%; }
+  width: 100%;
+  /*tbody + tbody {
+      border-top: 1px solid $ghost;
+    }*/ }
   .content table th,
   .content table td {
     padding: 5px;
     vertical-align: top;
-    border-top: 1px solid #f4f5fb; }
+    /*border-top: 1px solid $ghost;*/ }
   .content table thead th {
     vertical-align: bottom;
     border-bottom: 1px solid #f4f5fb;
     text-align: left;
     font-weight: bold; }
-  .content table tbody + tbody {
-    border-top: 1px solid #f4f5fb; }
+  .content table td.hljs-ln-line.hljs-ln-numbers > div.hljs-ln-n {
+    color: #a4a5a060; }
 
 .intro {
   display: flex;
