@@ -4726,6 +4726,13 @@ blockquote {
   padding-top: 30px;
   padding-bottom: 20px; }
 
+.content h3 {
+  color: #000;
+  font-size: 20px; }
+
+.content p a {
+  word-break: break-all; }
+
 .page-services-single .content > p:first-of-type {
   font-size: 1.6rem;
   line-height: 1.4;
