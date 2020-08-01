@@ -2,7 +2,7 @@
 title: "Raspberry piで検温機構を作るまで #1"
 date: 2020-08-01T17:19:39+09:00
 image: "images/uploads/rasp1.png"
-draft: true
+draft: false
 weight: 100
 description: "Raspberry piの概要と開発環境の作り方を紹介します"
 ---
