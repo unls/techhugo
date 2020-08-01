@@ -15,15 +15,6 @@ Hugoで使用しているテーマは[Hugo Serif](https://github.com/jugglerx/hu
 
 なおこの記事はHTML/CSSがわからないとちょっとわかりづらいかも。
 
-## 動画
-
-ブログを試行錯誤して作っていた時の配信です。  
-※音声のノイズはひどかった場合は音を消してください。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ofOAAZil75U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-
-&nbsp;
-
 ## 解説
 
 まずはテーマフォルダのレイアウト内teamフォルダをblogに改名。
