@@ -1,7 +1,7 @@
 baseURL = "https://www.tclb.cf"
 languageCode = "ja-jp"
 title = "技術科部"
-themesDir = "./themes"
+themesDir = "themes"
 theme = "hugo-serif-theme"
 
 [params]
@@ -23,7 +23,7 @@ theme = "hugo-serif-theme"
     meta_og_url = "https://www.tclb.cf"
     meta_og_image = "https://www.tclb.cf/images/tn.png"
     meta_og_description = "Technical Club Official Site"
-    meta_twitter_card = "summary"
+    meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@tech_chiba"
     meta_twitter_creator = "@tech_chiba"
 
