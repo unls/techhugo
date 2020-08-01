@@ -24,7 +24,7 @@
     <div class="row">
       {{ range .Pages.ByWeight }}
       <a href="{{ .Permalink }}" style="text-decoration: none;">
-        <div class="mb-2">{{ .Render "summary" }}</div>
+        <div>{{ .Render "summary" }}</div>
       </a>
       {{ end }}
     </div>

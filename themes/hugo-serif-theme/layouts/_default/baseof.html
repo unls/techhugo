@@ -20,6 +20,7 @@
   {{ end }}
 
   {{ block "header_css" . }}{{ end }}
+  <link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/monokai-sublime.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 
@@ -47,6 +48,10 @@
   {{ else }}
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+  <script>window.addEventListener("load", function() { hljs.initHighlighting(); hljs.initLineNumbersOnLoad(); });</script>
 
   {{ partial "google-analytics.html" . }}
 
