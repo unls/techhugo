@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  repo: unls/techhugo
-  branch: master
+  accept_roles:
+    - admin
 
 locale: 'ja'
 publish_mode: editorial_workflow
