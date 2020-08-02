@@ -9,24 +9,24 @@
 <meta property="twitter:title" content="{{ .Title }}">
 
 {{ if .Params.image }}
-    {{ with .Params.image }}
-    <meta property="og:image" content="{{ . | absURL }}">
-    <meta property="og:image:url" content="{{ . | absURL }}">
-    {{ end }}
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+<meta property="og:image:url" content="{{ . | absURL }}">
+{{ end }}
 {{ else }}
-    <meta property="og:image" content="{{ .Site.Params.og_image | absURL }}">
-    <meta property="og:image:url" content="{{ .Site.Params.og_image | absURL }}">
+<meta property="og:image" content="{{ .Site.Params.og_image | absURL }}">
+<meta property="og:image:url" content="{{ .Site.Params.og_image | absURL }}">
 {{ end }}
 
 {{- if .Description }}
-  <meta property="og:description" content="{{ .Description }}" />
-  <meta property="twitter:description" content="{{ .Description }}" />
+<meta property="og:description" content="{{ .Description }}" />
+<meta property="twitter:description" content="{{ .Description }}" />
 {{- else if .Summary }}
-  <meta property="og:description" content="{{ .Summary }}" />
-  <meta property="twitter:description" content="{{ .Summary }}" />
+<meta property="og:description" content="{{ .Summary }}" />
+<meta property="twitter:description" content="{{ .Summary }}" />
 {{- else if .Site.Params.description }}
-  <meta property="og:description" content="{{ .Site.Params.description }}" />
-  <meta property="twitter:description" content="{{ .Site.Params.description }}" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+<meta property="twitter:description" content="{{ .Site.Params.description }}" />
 {{- end }}{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-default-list{{ end }}
@@ -51,13 +51,16 @@
 </div>
 
 <div class="container pt-6 pb-md-6">
-    <div class="row">
-      {{ range .Pages.ByWeight }}
-      <a href="{{ .Permalink }}" style="text-decoration: none;">
-        <div>{{ .Render "summary" }}</div>
-      </a>
-      {{ end }}
-    </div>
+  <div class="row">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") 6 }}
+    {{ range $paginator.Pages }}
+    <a href="{{ .Permalink }}" style="text-decoration: none;">
+      <div>{{ .Render "summary" }}</div>
+    </a>
+    {{ end }}
   </div>
 
+
+{{ partial "paginator.html" . }}
+</div>
 {{ end }}
