@@ -24,7 +24,7 @@ https://www.tclb.cf/blog/raspberry_1/
 
 こんなことをします
 
-![](https://s19.aconvert.com/convert/p3r68-cdx67/gnkv9-2y0m9.gif)
+![](/images/raspberry/15.gif)
 
 
 
@@ -155,13 +155,13 @@ if __name__ == '__main__':
 
 実行してみると↓↓↓
 
-![](https://s19.aconvert.com/convert/p3r68-cdx67/gnkv9-2y0m9.gif)
+![](/images/raspberry/15.gif)
 
 main関数をいじることで光らせ方を変えることができますし、 LEDを増やすことも可能です。
 
 例えば……
 
-![](https://s27.aconvert.com/convert/p3r68-cdx67/d2c7n-bl7wu.gif)
+![](/images/raspberry/14.gif)
 
 このように流れるような光らせ方もできます。右から三番目のが光っていないのは気にせず……
 
