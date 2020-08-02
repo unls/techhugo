@@ -4771,6 +4771,9 @@ blockquote {
   background-color: #007bff;
   border-color: #007bff; }
 
+.content strong {
+  font-weight: bold; }
+
 .page-services-single .content > p:first-of-type {
   font-size: 1.6rem;
   line-height: 1.4;
