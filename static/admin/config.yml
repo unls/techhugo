@@ -1,6 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   repo: unls/techhugo
+  branch: master
 
 locale: 'ja'
 publish_mode: editorial_workflow
