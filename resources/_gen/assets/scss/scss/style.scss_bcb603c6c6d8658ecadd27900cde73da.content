@@ -4517,6 +4517,9 @@ blockquote {
     font-weight: bold; }
   .content table td.hljs-ln-line.hljs-ln-numbers > div.hljs-ln-n {
     color: #a4a5a060; }
+  .content table td.hljs-ln-line.hljs-ln-numbers {
+    border-right: 3px solid;
+    border-color: #4a4f53; }
 
 .intro {
   display: flex;

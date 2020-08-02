@@ -58,12 +58,19 @@
       border-bottom: 1px solid $ghost;
       text-align: left;
       font-weight: bold;
+
     }
     /*tbody + tbody {
       border-top: 1px solid $ghost;
     }*/
     td.hljs-ln-line.hljs-ln-numbers > div.hljs-ln-n{
       color: #a4a5a060;
+
+    }
+    td.hljs-ln-line.hljs-ln-numbers {
+      border-right: 3px solid;
+      border-color: #4a4f53;
+
     }
   }
 }
