@@ -31,6 +31,6 @@ collections:
       - {label: "投稿日時", name: "date", widget: "datetime"}
       - {label: "サムネイル", name: "image", widget: "image"}
       - {label: "下書き", name: "draft", widget: "boolean", default: false}
-      - {label: "順番", name: "weight", widget: "number" ,default: 1, valueType: "int", min: 1, max: 51, step: 1}
+      - {label: "順番", name: "weight", widget: "number" ,default: 100, valueType: "int", min: 1, max: 101, step: 1}
       - {label: "説明", name: "description", widget: "string"}
       - {label: "本文", name: "body", widget: "markdown"}
