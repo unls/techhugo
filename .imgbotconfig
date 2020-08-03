@@ -2,7 +2,8 @@
     "schedule": "weekly",
     "aggressiveCompression": "true",
     "ignoredFiles": [
-        "/static/avatar.png",
-        "/static/logo.png"
+        "/static/favicon-32x32.png",
+        "/static/images/logo-mobile.png".
+        "/static/images/logo.png"
     ]
 }
