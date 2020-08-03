@@ -24,7 +24,7 @@ https://www.tclb.cf/blog/raspberry_1/
 
 こんなことをします
 
-<iframe src="https://drive.google.com/file/d/1orrW2FT8vnVHEQ0AoGBmPFJXDZLD_Pg6/preview" width="640" height="480"></iframe>
+<div class="wrap"><iframe src="https://drive.google.com/file/d/1orrW2FT8vnVHEQ0AoGBmPFJXDZLD_Pg6/preview" width="640" height="480"></iframe></div>
 
 ## GPIOピン
 
@@ -153,11 +153,11 @@ if __name__ == '__main__':
 
 実行してみると↓↓↓
 
-<iframe src="https://drive.google.com/file/d/1orrW2FT8vnVHEQ0AoGBmPFJXDZLD_Pg6/preview" width="640" height="480"></iframe>main関数をいじることで光らせ方を変えることができますし、 LEDを増やすことも可能です。
+<div class="wrap"><iframe src="https://drive.google.com/file/d/1orrW2FT8vnVHEQ0AoGBmPFJXDZLD_Pg6/preview" width="640" height="480"></iframe></div>main関数をいじることで光らせ方を変えることができますし、 LEDを増やすことも可能です。
 
 例えば……
 
-<iframe src="https://drive.google.com/file/d/1PhjfBoKhXTcdfM4oWXVwBpucV5z05qnc/preview" width="640" height="480"></iframe>
+<div class="wrap"><iframe src="https://drive.google.com/file/d/1PhjfBoKhXTcdfM4oWXVwBpucV5z05qnc/preview" width="640" height="480"></iframe></div>
 
 このように流れるような光らせ方もできます。右から三番目のが光っていないのは気にせず……
 
