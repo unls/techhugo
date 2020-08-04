@@ -1,6 +1,6 @@
 {{- $seo := .seo -}}
 <meta name="description" content="{{ $seo.description }}">
-<meta property="og:title" content="{{ $seo.title }}">
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta property="og:site_name" content="{{ $seo.site_name }}">
 <meta property="og:description" content="{{ $seo.description }}">
 <meta property="og:url" content="{{ .page.Permalink }}">
@@ -8,7 +8,7 @@
 <meta property="og:locale" content="{{ $seo.locale }}">
 <meta name="twitter:card" content="{{ $seo.twitter_card }}">
 <meta name="twitter:site" content="@tech_chiba">
-<meta name="twitter:title" content="{{- $seo.title }}">
+<meta name="twitter:title" content="{{ .Title }}">
 {{ with $seo.canonical }}
 <link rel="canonical" href="{{ . }}">
 {{ end }}
