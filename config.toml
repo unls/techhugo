@@ -36,19 +36,24 @@ enableRobotsTXT = true
       weight = 1
 
   [[menu.main]]
+    name = "文化祭"
+    url = "/fes/"
+      weight = 2
+
+  [[menu.main]]
       name = "ブログ"
       url = "/blog/"
-      weight = 2
+      weight = 3
 
   [[menu.main]]
       name = "技術科部について"
       url = "/about/"
-      weight = 3
+      weight = 4
 
   [[menu.main]]
       name = "お問い合わせ"
       url = "/contact/"
-      weight = 4
+      weight = 5
 
   # Footer Menu
   [[menu.footer]]
