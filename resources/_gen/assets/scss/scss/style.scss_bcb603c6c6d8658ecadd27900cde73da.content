@@ -4711,9 +4711,9 @@ blockquote {
 
 .box2 {
   padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #FFF;
-  border: solid 3px #106BE0;
+  margin: 1em 0;
+  background: #fff;
+  border: solid 3px #106be0;
   /*線*/
   border-radius: 5px;
   /*角の丸み*/ }
@@ -4734,7 +4734,8 @@ blockquote {
 
 .content h3 {
   color: #000;
-  font-size: 20px; }
+  font-size: 22px;
+  font-family: "M PLUS Rounded 1c", sans-serif, -apple-system; }
 
 .content p a {
   word-break: break-all; }
@@ -4742,7 +4743,7 @@ blockquote {
 .pagination {
   display: flex;
   list-style: none;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin: 20px 0;
   padding: 0;
   justify-content: center; }
@@ -4750,7 +4751,7 @@ blockquote {
 .page-link {
   position: relative;
   display: block;
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   margin-left: -1px;
   line-height: 1.25;
   color: #007bff;
@@ -4790,6 +4791,25 @@ blockquote {
   left: 0;
   width: 100% !important;
   height: 100% !important; }
+
+.content img {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.content h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.content h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.content pre {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.content p {
+  margin-bottom: 0.2em; }
 
 .page-services-single .content > p:first-of-type {
   font-size: 1.6rem;
