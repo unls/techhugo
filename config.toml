@@ -13,8 +13,8 @@ enableRobotsTXT = true
   meta_og_image = "https://www.tclb.cf/images/tn.png"
 
   [params.logo]
-    mobile = "images/logo-mobile.png"
-    standard  = "images/logo.png"
+    mobile = "images/logo-mobile.svg"
+    standard  = "images/logo.svg"
     alt = "Technical Club Official Site"
 
   [params.homepage_meta_tags]
