@@ -4680,6 +4680,11 @@ blockquote {
   transform: translateY(-10px);
   transition-duration: 0.5s; }
 
+.intro p {
+  margin: 0;
+  width: 100%;
+  font-family: "M PLUS Rounded 1c", sans-serif, -apple-system; }
+
 .blog-summary {
   display: flex;
   flex-wrap: wrap;
