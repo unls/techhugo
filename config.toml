@@ -62,8 +62,8 @@ enableRobotsTXT = true
       weight = 1
 
   [[menu.footer]]
-    name = "お問い合わせ"
-    url = "/contact/"
+    name = "リポジトリ"
+    url = "/repo/"
       weight = 2
 
   [[menu.footer]]
