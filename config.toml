@@ -37,7 +37,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
     name = "文化祭"
-    url = "/fes/"
+    url = "https://fes.tclb.cf"
       weight = 2
 
   [[menu.main]]
