@@ -3,6 +3,8 @@ languageCode = "ja"
 title = "技術科部"
 theme = "tella"
 enableRobotsTXT = true
+hasCJKLanguage = true
+googleAnalytics = "UA-111958560-20"
 
 [params]
 
