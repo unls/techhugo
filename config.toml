@@ -2,7 +2,7 @@ baseURL = "https://www.tclb.cf/"
 languageCode = "ja"
 title = "技術科部"
 theme = "tella"
-
+enableRobotsTXT = true
 
 [params]
 
