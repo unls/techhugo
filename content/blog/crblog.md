@@ -1,7 +1,7 @@
 ---
 title: "ブログページを作る"
 date: 2020-08-01T21:11:55+09:00
-image: "images/uploads/crblog.png"
+image: "img/thumbnail/crblog.png"
 draft: false
 weight: 100
 description: "技術科部のブログページが作られるまで"
@@ -19,19 +19,19 @@ Hugoで使用しているテーマは[Hugo Serif](https://github.com/jugglerx/hu
 
 まずはテーマフォルダのレイアウト内teamフォルダをblogに改名。
 
-![](/images/crblog/1.png)
+![](/img/crblog/1.png)
 
 その後list.htmlとsummary.htmlを見た目を確認しつつ変更してきます。
 このテーマはBootstrapの一部のクラスが使えるようになっているので、それらを使いつつ大きさを調整していい感じにしました。  
 Descriptionは面倒だったのでmarkdown側に入れました。
 
-![](/images/crblog/2.png)
+![](/img/crblog/2.png)
 
 もちろんHTMLだけを反映させるだけでは特になんともならないので、次にCSSをいじります。  
 テーマフォルダのasssets/scss/pages/の中のteamフォルダをblogに改名します。  
 中身の_team-summary.scssを_blog-summary.scssに改名するのを忘れずに。  
 
-![](/images/crblog/3.png)
+![](/img/crblog/3.png)
 
 あとは適当にいじくっていきます。  
 single側を変える必要がほぼないので、listを変更するようのCSSを書いていきます。  

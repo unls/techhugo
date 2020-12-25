@@ -1,7 +1,7 @@
 ---
 title: "Raspberry piで検温機構を作るまで #2"
 date: 2020-08-02T08:23:19+09:00
-image: "images/uploads/rasp2.png"
+image: "img/thumbnail/rasp2.png"
 draft: false
 weight: 100
 description: "Lチカのソースコードを紐解いていきます"
@@ -30,7 +30,7 @@ https://www.tclb.cf/blog/raspberry_1/
 
 電源の供給をしたり制御信号を出したりできます。具体的なピンの配置は以下のとおりです。配置が覚えづらいのでどこかに画像をおいておいたほうが良いと思います。
 
-![](/images/raspberry/9.png) [^1]
+![](/img/raspberry/9.png) [^1]
 
 また、ラズパイのGPIOの状態は以下のコマンドで確認できます。
 
@@ -38,7 +38,7 @@ https://www.tclb.cf/blog/raspberry_1/
 gpio readall
 ```
 
-![](/images/raspberry/10.png)
+![](/img/raspberry/10.png)
 
 実行すると以下のような表が出力されます。
 
@@ -55,7 +55,7 @@ gpio readall
 pinout
 ```
 
-![](/images/raspberry/11.png)
+![](/img/raspberry/11.png)
 
 ## GPIOをPythonで制御する
 
@@ -89,13 +89,13 @@ sudo mv fritzing-parts/ parts
 
 入力端子→LED→抵抗→終（？）
 
-![](/images/raspberry/13.png)
+![](/img/raspberry/13.png)
 
-![](/images/raspberry/12.png)
+![](/img/raspberry/12.png)
 
 ただ接続しただけでLEDが点くこともありますが、点かないこともあります。Pythonで制御してみましょう。
 
-![](/images/raspberry/13.jpg)
+![](/img/raspberry/13.jpg)
 
 ## Rpi.GPIOで制御してみる
 

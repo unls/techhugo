@@ -1,0 +1,25 @@
+{{ define "meta_tags" }}
+<meta property="og:title" content="{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}" />
+{{ partial "seo/print.html" . }}
+
+{{- with .Site.Params.facebookAppId }}
+  <meta property="fb:app_id" content="{{ . }}" />
+{{- end }}
+<meta name="twitter:title" content="{{ .Title }}">
+<link rel="preload" href="{{ "/css/monokai-sublime.min.css" | relURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+{{ end }}
+{{ define "main" }}
+<div class="mx-auto my-10 max-w-6xl">
+    <div class="mx-3 col-span-3 lg:col-span-2 px-2">
+        <h1 class="title text-5xl">{{.Title}}</h1>
+        <section class="mb-4">
+            <h4 id="date">{{ .Date.Format "2006/01/02" }} </h4>
+        </section>
+        {{ if .Params.image }}
+        <img class="my-4" src="{{ .Params.image | absURL }}">
+        {{ end }}
+        {{ .TableOfContents }}
+        <div class="content py-1">{{.Content}}</div>
+    </div>
+</div>
+{{ end }}

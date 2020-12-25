@@ -1,59 +1,60 @@
-baseURL = "https://www.tclb.cf"
-languageCode = "ja-jp"
+baseURL = "http://example.org/"
+languageCode = "ja"
 title = "技術科部"
-themesDir = "themes"
-theme = "hugo-serif-theme"
-enableRobotsTXT = true
+theme = "tella"
+
 
 [params]
-  # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
-  title="Home | 技術科部"
-  google_analytics_id = "UA-111958560-20"
-  google_tag_manager_id = ""
-  meta_og_image = "https://www.tclb.cf/images/tn.png"
 
   [params.logo]
-    mobile = "images/logo-mobile.svg"
-    standard  = "images/logo.svg"
-    alt = "Technical Club Official Site"
+    main = "img/logo/logo.svg"
+    alt = "技術科部ロゴ"
+
+  [params.site]
+    name = "千葉大学教育学部附属中学校　技術科部"
 
   [params.homepage_meta_tags]
     meta_description = "Technical Club Official Site"
     meta_og_title = "千葉大学教育学部附属中学校 技術科部"
     meta_og_type = "website"
     meta_og_url = "https://www.tclb.cf"
-    meta_og_image = "https://www.tclb.cf/images/tn.png"
+    meta_og_image = "https://www.tclb.cf/img/tn.png"
     meta_og_description = "Technical Club Official Site"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@tech_chiba"
     meta_twitter_creator = "@tech_chiba"
 
 [menu]
-  # Main Menu
-  [[menu.main]]
-    name = "企画"
-    url = "/product/"
-      weight = 1
 
   [[menu.main]]
+    identifier = "products"
+    name = "企画"
+    url = "/products/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "fes"
     name = "文化祭"
     url = "https://fes.tclb.cf"
-      weight = 2
+    weight = 2
 
   [[menu.main]]
-      name = "ブログ"
-      url = "/blog/"
-      weight = 3
+    identifier = "blog"
+    name = "ブログ"
+    url = "/blog/"
+    weight = 3
 
   [[menu.main]]
-      name = "技術科部について"
-      url = "/about/"
-      weight = 4
+    identifier = "about"
+    name = "技術科部について"
+    url = "/about/"
+    weight = 4
 
   [[menu.main]]
-      name = "お問い合わせ"
-      url = "/contact/"
-      weight = 5
+    identifier = "contact"
+    name = "お問い合わせ"
+    url = "/contact/"
+    weight = 5
 
   # Footer Menu
   [[menu.footer]]
@@ -70,8 +71,3 @@ enableRobotsTXT = true
     name = "中学校公式サイト"
     url = "http://www.jr.chiba-u.jp/"
       weight = 3
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

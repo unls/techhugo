@@ -1,7 +1,7 @@
 ---
 title: "Raspberry piで検温機構を作るまで #1"
 date: 2020-08-01T17:19:39+09:00
-image: "images/uploads/rasp1.png"
+image: "img/thumbnail/rasp1.png"
 draft: false
 weight: 100
 description: "Raspberry piの概要と開発環境の作り方を紹介します"
@@ -27,7 +27,7 @@ description: "Raspberry piの概要と開発環境の作り方を紹介します
 
 技術科部ではRaspberry pi 3 model B+を使用しています。手のひらサイズです。
 
-![](/images/raspberry/6.jpg)
+![](/img/raspberry/6.jpg)
 
 ### できること
 
@@ -47,7 +47,7 @@ https://qiita.com/Higemal/items/c817b96c3806f23b35f6
 
 ### Raspberry piについて確認する
 
-![](/images/raspberry/7.png)
+![](/img/raspberry/7.png)
 
 上から
 
@@ -91,7 +91,7 @@ vim /etc/dhcpcd.conf
 
 一般的なものだと https://blog.ko31.com/201803/raspi-ssh-setup/ この記事にある 192.168.1.1と192.168.1.10を使うそうです。
 
-```
+```bash
 interface wlan0
 static ip_address=192.xxx.x.xx/24
 static routers=192.xxx.x.x
@@ -154,23 +154,23 @@ pi@raspberrypi:~ $
 
 File/Settingsで環境設定に入る
 
-![](/images/raspberry/1.png)
+![](/img/raspberry/1.png)
 
 Project: hogehoge/Python Interpreterに入る
 
-![](/images/raspberry/2.png)
+![](/img/raspberry/2.png)
 
 ユーザーネームとipアドレスを入れる
 
-![](/images/raspberry/3.png)
+![](/img/raspberry/3.png)
 
 パスワードを入れる
 
-![](/images/raspberry/4.png)
+![](/img/raspberry/4.png)
 
 接続先（raspberry pi）のpythonのインタプリタと接続先の作業ディレクトリを設定する。
 
-![](/images/raspberry/5.png)
+![](/img/raspberry/5.png)
 
 という手順を踏めば簡単にできます。
 
@@ -188,7 +188,7 @@ Tools/Deployment/Upload to pi&#64;192.xxx.x.xx
 
 下はちょうど今実行していたプログラムの様子です。右側にuploadのログ、左側には実行時のログが残されています。上の方にsshと書いてあるように接続先のファイルが接続先の環境で実行されていることがわかります。（つまり実機はただコードを書いて実行を要求するだけ）
 
-![](/images/raspberry/8.png)
+![](/img/raspberry/8.png)
 
 ### 仮想環境は作るべきか
 

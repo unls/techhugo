@@ -1,7 +1,7 @@
 ---
 title: "Raspberry Piで検温機構を作る　遂に完成！ #3"
 date: 2020-09-25T15:29:21+09:00
-image: "images/uploads/rasp3.png"
+image: "img/thumbnail/rasp3.png"
 draft: false
 weight: 100
 description: ""
@@ -9,7 +9,7 @@ description: ""
 
 
 
-![](/images/raspberry/16.jpg)
+![](/img/raspberry/16.jpg)
 
 今回ご紹介するのは2020年9月21日に完成した技術科部特製の「体温測定器」です。
 
@@ -42,23 +42,23 @@ description: ""
 
 ## 使い方
 
-![](/images/raspberry/17.jpg)
+![](/img/raspberry/17.jpg)
 
 このように本体とモニタを用意します。（モニタは何でもいい）
 
 そしてRaspberry Piを起動します。
 
-![](/images/raspberry/18.png)
+![](/img/raspberry/18.png)
 
 すると、上のような画面が出てくるかと思います。
 
 そこからは指定のファイル（今回は `Desktop/festival/LTS_v3.py` ）を開きます。
 
-![](/images/raspberry/19.png)
+![](/img/raspberry/19.png)
 
 Raspberry Pi に入ってるエディタが起動するので `F5`または上にある実行ボタンを押して実行します。
 
-![](/images/raspberry/20.png)
+![](/img/raspberry/20.png)
 
 はい！できました！　ただ何もせずに5秒すると勝手にintervalに入ってしまうので注意です。
 
@@ -72,7 +72,7 @@ Raspberry Pi に入ってるエディタが起動するので `F5`または上�
 
 こいつです。全く認識しなくて何だこいつ！！！！！って独りでキレてたら原因がわかりました。（キレてないです）
 
-![](/images/raspberry/19.jpg)
+![](/img/raspberry/19.jpg)
 
 Raspberry Piの起動前に挿さないと認識してくれないらしいです。起動してからああだこうだやってたから上手くいきませんでした。USBと同じノリでやっちゃだめですね。これで半日とかしました。
 
@@ -114,7 +114,7 @@ SSHは使わなくなりました。計算オンリーならGUI使わないほ�
 
 この画像の名称もわからずひたすら「画像　背景　ない」「画像　透過」でググってやっとの思いで背景透過画像を見つけました。
 
-![](/images/raspberry/tclb_logo.png)
+![](/img/raspberry/tclb_logo.png)
 
 OpenCV上だと `alpha`チャンネルで表されるそうです。普通の画像だと全て100(%)なのですが、背景透過画像だと一部が0になることがあるそうです。
 

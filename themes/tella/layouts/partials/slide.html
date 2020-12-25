@@ -1,0 +1,23 @@
+<!-- スライダーのメインコンテナの div 要素 -->
+<div class="swiper-container">
+    <!-- ラッパーの（スライドを囲む） div 要素 -->
+    <div class="swiper-wrapper">
+        <!-- それぞれのスライドの div 要素 -->
+        <div class="swiper-slide"><img src="{{ "/img/slide/slide01.jpg" | relURL }}" alt="">
+            <div class="s-fade-txt">
+                <h1 class="text-4xl text-white">自由な部活動、技術科部。</h1>
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="{{ "/img/slide/slide02.jpg" | relURL }}" alt="">
+            <div class="s-fade-txt">
+                <h1 class="text-4xl text-white">自分の好きなことを探そう。</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ページネーションの div 要素 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- ナビゲーションボタンの div 要素-->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>

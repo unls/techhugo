@@ -1,7 +1,7 @@
 ---
 title: "開発経過#01"
 date: 2020-06-23T22:54:53+09:00
-image: "images/uploads/sharp1.png"
+image: "img/thumbnail/sharp1.png"
 draft: false
 weight: 100
 description: "現在制作しているLightCubeの開発画面を少しだけお見せします。"
@@ -10,13 +10,13 @@ description: "現在制作しているLightCubeの開発画面を少しだけお
 残念ながらまだ人に見せられるほど出来上がっているわけではありません。
 
 ### シングルプレイ / ゲーム画面
-![Game Screen](/images/uploads/lcdev1.png)
+![Game Screen](/img/lightcube/lcdev1.png)
 
 ### シングルプレイ / プロジェクト作成画面
-![Project Screen](/images/uploads/lcdev2.png)
+![Project Screen](/img/lightcube/lcdev2.png)
 
 ### マルチプレイ / ゲーム画面
-![Multi Screen](/images/uploads/lcdev3.png)
+![Multi Screen](/img/lightcube/lcdev3.png)
 
 ## 今後の予定
 ・車と信号の判定を作る  
