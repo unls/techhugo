@@ -38,7 +38,5 @@ jobs:
           server: ftp.wmsc.cfbx.jp
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
           local-dir: ./public/
           server-dir: public_html/tclb.cf/
