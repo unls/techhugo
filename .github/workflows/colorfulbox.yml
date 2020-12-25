@@ -21,6 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd themes/tella
+          npm install -g npm-install-peers
           npm install -g postcss-cli
           npm install -g autoprefixer
           npm install
