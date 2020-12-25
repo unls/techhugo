@@ -1,7 +1,7 @@
 ---
 title: "部活動紹介"
 date: 2020-07-02T21:41:24+09:00
-image: "img/thumbnail/20v.png"
+image: "img/thumbnail/20v.jpg"
 draft: false
 weight: 100
 description: "2020年度の部活動紹介で使用された動画の制作など"

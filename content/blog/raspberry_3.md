@@ -1,7 +1,7 @@
 ---
 title: "Raspberry Piで検温機構を作る　遂に完成！ #3"
 date: 2020-09-25T15:29:21+09:00
-image: "img/thumbnail/rasp3.png"
+image: "img/thumbnail/rasp3.jpg"
 draft: false
 weight: 100
 description: ""

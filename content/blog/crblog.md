@@ -1,7 +1,7 @@
 ---
 title: "ブログページを作る"
 date: 2020-08-01T21:11:55+09:00
-image: "img/thumbnail/crblog.png"
+image: "img/thumbnail/crblog.jpg"
 draft: false
 weight: 100
 description: "技術科部のブログページが作られるまで"

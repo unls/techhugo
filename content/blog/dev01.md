@@ -1,7 +1,7 @@
 ---
 title: "開発経過#01"
 date: 2020-06-23T22:54:53+09:00
-image: "img/thumbnail/sharp1.png"
+image: "img/thumbnail/sharp1.jpg"
 draft: false
 weight: 100
 description: "現在制作しているLightCubeの開発画面を少しだけお見せします。"
