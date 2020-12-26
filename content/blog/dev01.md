@@ -4,7 +4,7 @@ date: 2020-06-23T22:54:53+09:00
 image: "img/thumbnail/sharp1.jpg"
 draft: false
 weight: 100
-description: "現在制作しているLightCubeの開発画面を少しだけお見せします。"
+author: "wamo"
 ---
 この記事では、現在開発しているLightCubeの画像をすこーしだけお見せしていきます。  
 残念ながらまだ人に見せられるほど出来上がっているわけではありません。

@@ -4,7 +4,7 @@ date: 2020-07-02T21:41:24+09:00
 image: "img/thumbnail/20v.jpg"
 draft: false
 weight: 100
-description: "2020年度の部活動紹介で使用された動画の制作など"
+author: "wamo"
 ---
 今年の部活動紹介動画は、都合により音声や映像が非常にわかりにくかったかと思われるため、一般公開できる一部の動画のみをYoutubeで公開しています。
 

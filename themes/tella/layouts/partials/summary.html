@@ -9,7 +9,7 @@
         <div class="mb-8">
             <div class="text-gray-900 font-bold text-xl">{{.Title}}</div>
             <p class="text-sm text-gray-700 flex items-center mb-2">
-                <time>{{.Date.Format "2006/01/02"}}</time>
+                <time><span class="icon-access_time mr-1"></span>{{.Date.Format "2006/01/02"}}</time>
             </p>
             <p class="text-gray-700 text-base">{{ substr .Summary 0 130 | plainify }}...</p>
         </div>

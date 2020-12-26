@@ -5,6 +5,7 @@ image: "img/thumbnail/rasp1.jpg"
 draft: false
 weight: 100
 description: "Raspberry piの概要と開発環境の作り方を紹介します"
+author: "chizuchizu"
 ---
 
 

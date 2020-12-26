@@ -31,3 +31,7 @@ function toggleNav() {
   });
 }
 toggleNav();
+
+document.querySelector('.scroll-top').addEventListener('click', () => {
+  document.documentElement.scrollTop = 0;
+});

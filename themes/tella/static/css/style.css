@@ -1,6 +1,94 @@
+/* font */
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.ttf?ikw64j") format("truetype"),
+    url("fonts/icomoon.woff?ikw64j") format("woff"),
+    url("fonts/icomoon.svg?ikw64j#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-discord:before {
+  content: "\e907";
+}
+.icon-email:before {
+  content: "\e902";
+}
+.icon-message:before {
+  content: "\e900";
+}
+.icon-create:before {
+  content: "\e901";
+}
+.icon-access_time:before {
+  content: "\e903";
+}
+.icon-file_download:before {
+  content: "\e90b";
+}
+.icon-folder:before {
+  content: "\e908";
+}
+.icon-desktop_windows:before {
+  content: "\e906";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e904";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e905";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e90d";
+}
+.icon-remove_red_eye:before {
+  content: "\e90c";
+}
+.icon-person:before {
+  content: "\e90a";
+}
+.icon-lightbulb_outline:before {
+  content: "\e909";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-github:before {
+  content: "\eab0";
+}
 body {
   font-family: "Montserrat", "Noto Sans JP", sans-serif;
   font-weight: 300;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 /* slide */
@@ -175,8 +263,30 @@ body.scroll-lock {
   -webkit-transition-delay: 0.175s;
   transition-delay: 0.175s;
 }
+.scroll-top {
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  cursor: pointer;
+}
 
 /* content */
+.hover {
+  transition: all 0.3s ease 0s;
+}
+.hover:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-0.1875em);
+}
 .hover4 {
   color: #fff;
   cursor: pointer;

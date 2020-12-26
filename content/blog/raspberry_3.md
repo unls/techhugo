@@ -4,7 +4,7 @@ date: 2020-09-25T15:29:21+09:00
 image: "img/thumbnail/rasp3.jpg"
 draft: false
 weight: 100
-description: ""
+author: "chizuchizu"
 ---
 
 
