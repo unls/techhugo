@@ -1,0 +1,17 @@
+[
+  {
+    "title": "自由に会議",
+    "description": "DiscordやZoomなどを使った新しい会議のカタチ",
+    "icon": "icon-message"
+  },
+  {
+    "title": "モノを制作",
+    "description": "自分が作りたいと思ったモノを自由に作ろう。",
+    "icon": "icon-lightbulb_outline"
+  },
+  {
+    "title": "制作物の発表",
+    "description": "良いものが出来上がったら、周りに発表しよう。",
+    "icon": "icon-desktop_windows"
+  }
+]
