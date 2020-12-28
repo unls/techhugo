@@ -457,7 +457,9 @@ textarea {
 .page-item.active .page-link {
   z-index: 1;
 }
-
+.h-10 {
+  height: 2.5rem;
+}
 .h-14 {
   height: 3.5rem;
 }
