@@ -3,10 +3,11 @@
 {{ partial "seo/print.html" . }}
 
 {{- with .Site.Params.facebookAppId }}
-  <meta property="fb:app_id" content="{{ . }}" />
+<meta property="fb:app_id" content="{{ . }}" />
 {{- end }}
 <meta name="twitter:title" content="{{ .Title }}">
-<link rel="preload" href="{{ "/css/monokai-sublime.min.css" | relURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ "/css/monokai-sublime.min.css" | relURL }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 {{ end }}
 {{ define "main" }}
 <div class="mx-auto my-10 max-w-6xl">
@@ -23,6 +24,38 @@
         {{ end }}
         {{ .TableOfContents }}
         <div class="content py-1">{{.Content}}</div>
+        <div class="share m-2 grid grid-cols-2 lg:grid-cols-3 gap-2">
+            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" title="Tweet" class="share-button twitter">
+                <div class="text-white text-center">
+                    <span class="icon-twitter text-lg mr-2"></span>Twitter
+                </div>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&t={{ .Title }}" target="_blank" title="Facebook" class="share-button facebook">
+                <div class="text-white text-center">
+                    <span class="icon-facebook text-lg mr-2"></span>Facebook
+                </div>
+            </a>
+            <a href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="hatena" class="share-button hatena">
+                <div class="text-white text-center">
+                    <span class="icon-hatenabookmark text-lg mr-2"></span>はてブ
+                </div>
+            </a>
+            <a href="https://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="pocket" class="share-button pocket">
+                <div class="text-white text-center">
+                    <span class="icon-get-pocket text-lg mr-2"></span>Pocket
+                </div>
+            </a>
+            <a href="https://timeline.line.me/social-plugin/share?url={{ .Permalink }}" class="share-button line">
+                <div class="text-white text-center">
+                    <span class="icon-line text-lg mr-2"></span>LINE
+                </div>
+            </a>
+            <a href="javascript:void(0);" class="share-button url" title="Copy to Clipboard" data-clipboard-text="{{ .Title }} {{ .Permalink }}">
+                <div class="text-white text-center">
+                    <span class="icon-link text-lg mr-2"></span>コピー
+                </div>
+            </a>
+        </div>
         <hr class="py-2">
         <aside id="meta">
             {{ with .Params.categories }}
@@ -31,7 +64,7 @@
                 {{ range . }}
                 <span
                     class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-blue-500 hover:text-black"><a
-                        href="{{ "categories" | absURL}}/{{ . | urlize }}">{{ . }}</a></span>
+                        href="{{ " categories" | absURL}}/{{ . | urlize }}">{{ . }}</a></span>
                 {{ end }}
             </div>
             {{ end }}
@@ -39,13 +72,15 @@
                 <div class="col-span-1">
                     {{ with .PrevInSection }}
                     <div class="bg-gray-200 h-auto m-3 text-center py-3 lg:py-1">
-                        <a class="previous lg:text-2xl" href="{{.Permalink}}"><span class="icon-keyboard_arrow_left"></span> {{.Title}}</a>
+                        <a class="previous lg:text-2xl" href="{{.Permalink}}"><span
+                                class="icon-keyboard_arrow_left"></span> {{.Title}}</a>
                     </div>
                     {{ end }}
                 </div>
                 {{ with .NextInSection }}
                 <div class="col-span-1 bg-gray-200 h-auto m-3 text-center py-3 lg:py-1">
-                    <a class="next lg:text-2xl" href="{{.Permalink}}"> {{.Title}} <span class="icon-keyboard_arrow_right"></span></a>
+                    <a class="next lg:text-2xl" href="{{.Permalink}}"> {{.Title}} <span
+                            class="icon-keyboard_arrow_right"></span></a>
                 </div>
                 {{ end }}
             </div>

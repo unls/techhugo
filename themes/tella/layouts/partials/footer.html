@@ -1,4 +1,5 @@
 <footer class="bg-gray-100">
+    <script src="{{ "/js/clipboard.min.js" | relURL }}"></script>
     <script src="{{ "/js/highlight.min.js" | relURL }}"></script>
     <script src="{{ "/js/highlightjs-line-numbers.min.js" | relURL }}"></script>
     <script src="{{ "/js/swiper-bundle.min.js" | relURL }}"></script>
@@ -6,6 +7,7 @@
     <script>
         hljs.initHighlightingOnLoad();
         hljs.initLineNumbersOnLoad();
+        new ClipboardJS('.url');
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">

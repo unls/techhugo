@@ -1,19 +1,19 @@
 /* font */
 
 @font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.ttf?ikw64j") format("truetype"),
-    url("fonts/icomoon.woff?ikw64j") format("woff"),
-    url("fonts/icomoon.svg?ikw64j#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?k0g81o') format('truetype'),
+    url('fonts/icomoon.woff?k0g81o') format('woff'),
+    url('fonts/icomoon.svg?k0g81o#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -26,6 +26,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-get-pocket:before {
+  content: "\f265";
+}
+.icon-line:before {
+  content: "\e90e";
+}
+.icon-hatenabookmark:before {
+  content: "\e90f";
+}
 .icon-discord:before {
   content: "\e907";
 }
@@ -73,6 +85,9 @@
 }
 .icon-sphere:before {
   content: "\e9c9";
+}
+.icon-link:before {
+  content: "\e9cb";
 }
 .icon-twitter:before {
   content: "\ea96";
@@ -514,4 +529,32 @@ textarea {
   background-color: rgba(0, 0, 50, 0.5);
   border-radius: 10px;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+/* share */
+.share-button {
+  padding-top:10px;
+  padding-bottom:8px;
+  transition:all 0.3s;
+}
+.share-button:hover {
+  opacity: 0.7;
+}
+.twitter {
+  background-color:#1da1f2;
+}
+.line {
+  background-color: #00c300;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.pocket {
+  background-color: #ef4056;
+}
+.hatena {
+  background-color: #00A4DE;
+}
+.url {
+  background-color: #222;
 }
