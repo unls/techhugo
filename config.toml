@@ -6,6 +6,8 @@ enableRobotsTXT = true
 hasCJKLanguage = true
 googleAnalytics = "UA-111958560-20"
 
+disqusShortname = "intertech-1"
+
 [params]
 
   [params.logo]
