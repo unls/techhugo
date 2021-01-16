@@ -75,3 +75,6 @@ disqusShortname = "intertech-1"
     name = "中学校公式サイト"
     url = "http://www.jr.chiba-u.jp/"
       weight = 3
+
+[build]
+  writeStats = true
