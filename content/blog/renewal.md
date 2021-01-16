@@ -1,6 +1,6 @@
 ---
 title: "サイトをリニューアルしました！"
-date: 2020-12-27T00:50:31+09:00
+date: 2020-12-27
 image: "img/thumbnail/renewal.jpg"
 draft: false
 weight: 100

@@ -1,6 +1,6 @@
 ---
 title: "部活動紹介"
-date: 2020-07-02T21:41:24+09:00
+date: 2020-07-02
 image: "img/thumbnail/20v.jpg"
 draft: false
 weight: 100

@@ -1,6 +1,6 @@
 ---
 title: "Raspberry piで検温機構を作るまで #2"
-date: 2020-08-02T08:23:19+09:00
+date: 2020-08-02
 image: "img/thumbnail/rasp2.jpg"
 draft: false
 weight: 100

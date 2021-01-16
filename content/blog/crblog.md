@@ -1,6 +1,6 @@
 ---
 title: "ブログページを作る"
-date: 2020-08-01T21:11:55+09:00
+date: 2020-08-01
 image: "img/thumbnail/crblog.jpg"
 draft: true
 weight: 100

@@ -1,6 +1,6 @@
 ---
 title: "開発経過#01"
-date: 2020-06-23T22:54:53+09:00
+date: 2020-06-23
 image: "img/thumbnail/sharp1.jpg"
 draft: false
 weight: 100
