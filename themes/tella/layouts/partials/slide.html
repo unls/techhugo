@@ -3,24 +3,17 @@
     <!-- ラッパーの（スライドを囲む） div 要素 -->
     <div class="swiper-wrapper">
         <!-- それぞれのスライドの div 要素 -->
+        {{ range .Site.Data.slide }}
         <div class="swiper-slide">
             <picture>
-                <source type="image/webp" srcset="{{ "/img/slide/slide01.webp" | relURL }}">
-                <img src="{{ "/img/slide/slide01.jpg" | relURL }}" alt="">
+                <source type="image/webp" srcset="{{ .webp }}">
+                <img src="{{ .image }}" alt="">
             </picture>
             <div class="s-fade-txt">
-                <h1 class="text-4xl text-white">自由な部活動、技術科部。</h1>
+                <h1 class="text-4xl text-white">{{ .title }}</h1>
             </div>
         </div>
-        <div class="swiper-slide">
-            <picture>
-                <source type="image/webp" srcset="{{ "/img/slide/slide02.webp" | relURL }}">
-                <img src="{{ "/img/slide/slide02.jpg" | relURL }}" alt="">
-            </picture>
-            <div class="s-fade-txt">
-                <h1 class="text-4xl text-white">自分の好きなことを探そう。</h1>
-            </div>
-        </div>
+        {{ end }}
     </div>
     <!-- ページネーションの div 要素 -->
     <div class="swiper-pagination"></div>
