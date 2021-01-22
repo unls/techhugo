@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: document
+  path: data/features.json
+  label: Features
+  match: "**/*"
+- type: document
+  path: data/slide.json
+  label: Slide
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
