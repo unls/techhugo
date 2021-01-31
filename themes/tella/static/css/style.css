@@ -574,4 +574,5 @@ textarea {
   transition-duration: 0.8s;
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
