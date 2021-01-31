@@ -577,3 +577,6 @@ textarea {
   visibility:hidden;
   display:none;
 }
+.fixed {
+  position:fixed;
+}
