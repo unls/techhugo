@@ -479,6 +479,9 @@ textarea {
 .h-screen {
   height:100vh;
 } 
+.w-48 {
+  width: 12rem;
+}
 
 /* toc */
 
@@ -568,6 +571,8 @@ textarea {
   transition-duration: 0.8s;
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+}
+.none {
+  visibility:hidden;
   display:none;
 }
