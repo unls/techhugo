@@ -562,7 +562,7 @@ textarea {
 
 /* Loading */
 .loading {
-  z-index: 1000;
+  z-index: 1010;
   background: #fff;
 }
 .loaded {
