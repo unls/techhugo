@@ -571,6 +571,7 @@ textarea {
   transition-duration: 0.8s;
   opacity: 0;
   pointer-events: none;
+  background: rgba(255,255,255,0);
 }
 .none {
   visibility:hidden;
