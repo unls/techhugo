@@ -29,4 +29,11 @@
     <div class="copy pl-8 py-5 bg-gray-700 text-white text-md">
         {{site.Title}} &copy; 2020 All Rights Reserved.
     </div>
+    <script>
+        window.onload = function () {
+            const loading = document.getElementById('loading');
+            setTimeout('loading.classList.add("loaded");', 3000);
+            setTimeout('document.getElementById("loading").classList.remove("loading");', 4500);
+        }
+    </script>
 </footer>

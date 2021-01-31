@@ -1,19 +1,19 @@
 /* font */
 
 @font-face {
-  font-family: 'icomoon';
-  src:
-    url('fonts/icomoon.ttf?k0g81o') format('truetype'),
-    url('fonts/icomoon.woff?k0g81o') format('woff'),
-    url('fonts/icomoon.svg?k0g81o#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.ttf?k0g81o") format("truetype"),
+    url("fonts/icomoon.woff?k0g81o") format("woff"),
+    url("fonts/icomoon.svg?k0g81o#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -287,7 +287,7 @@ body.scroll-lock {
   width: 2.5rem;
   display: flex;
   flex-direction: column;
-  z-index: 1000;
+  z-index: 900;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
   cursor: pointer;
@@ -439,7 +439,8 @@ textarea {
   margin-bottom: 0.5em;
   margin-top: 0.5em;
 }
-input,textarea {
+input,
+textarea {
   -webkit-appearance: none;
 }
 
@@ -536,15 +537,15 @@ input,textarea {
 
 /* share */
 .share-button {
-  padding-top:10px;
-  padding-bottom:8px;
-  transition:all 0.3s;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  transition: all 0.3s;
 }
 .share-button:hover {
   opacity: 0.7;
 }
 .twitter {
-  background-color:#1da1f2;
+  background-color: #1da1f2;
 }
 .line {
   background-color: #00c300;
@@ -556,8 +557,21 @@ input,textarea {
   background-color: #ef4056;
 }
 .hatena {
-  background-color: #00A4DE;
+  background-color: #00a4de;
 }
 .url {
   background-color: #222;
+}
+
+/* Loading */
+.loading {
+  z-index: 1000;
+  background: #fff;
+}
+.loaded {
+  transition-property: opacity;
+  transition-delay: 0.9s;
+  transition-duration: 0.8s;
+  opacity: 0;
+  pointer-events: none;
 }
