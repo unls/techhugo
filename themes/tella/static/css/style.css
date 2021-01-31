@@ -476,6 +476,9 @@ textarea {
 .page-item.active .page-link {
   z-index: 1;
 }
+.h-full {
+  height:100%;
+} 
 
 /* toc */
 
