@@ -30,7 +30,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --theme=tella --gc --minify
+        run: hugo
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
