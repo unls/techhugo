@@ -23,7 +23,10 @@
         {{ if .Params.image }}
         <img class="my-4" src="{{ .Params.image | absURL }}">
         {{ end }}
+        <details class="toc">
+            <summary>目次</summary>
         {{ .TableOfContents }}
+        </details>
         <div class="content py-1">{{.Content}}</div>
         <div class="share m-2 grid grid-cols-2 lg:grid-cols-3 gap-2">
             <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank"

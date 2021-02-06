@@ -477,39 +477,61 @@ textarea {
   z-index: 1;
 }
 .h-screen {
-  height:100vh;
-} 
+  height: 100vh;
+}
 .w-48 {
   width: 12rem;
 }
 
 /* toc */
-
-#TableOfContents > ul {
+summary {
+  display: block;
+  cursor: pointer;
+}
+details[open] #TableOfContents {
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* 透明 */
+    transform: translateY(-10px); /* 上から表示 */
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.toc {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  padding: 25px 40px;
+  background: #fff;
   border: 1px solid #999;
   border-radius: 3px;
-  padding: 0.5em 1em;
-  line-height: 2;
-}
-#TableOfContents > ul:before {
-  content: "目次";
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: 400;
+  color: #555d66;
 }
 #TableOfContents ul {
-  list-style-type: none;
+  list-style: none;
 }
-#TableOfContents li {
+#TableOfContents {
+  display:block;
+}
+.toc summary {
+  font-family: inherit;
+  margin-bottom: 15px;
+  margin-top: 0;
   padding-top: 0;
+  padding-bottom: 0px;
+  font-size: 1.8em;
+  border-bottom: 1px solid #72777c;
 }
-#TableOfContents li > ul {
-  padding-left: 1em;
-  width: 100%;
+#TableOfContents ul > li {
+  margin-bottom: 18px;
+  margin-left: 12px;
+  font-size: 1em;
 }
-#TableOfContents a {
-  display: block;
-  border-bottom: dashed 1px lightgray;
+#TableOfContents ul > li ul {
+  margin-top: 12px;
 }
 
 /* hljs */
@@ -573,9 +595,9 @@ textarea {
   pointer-events: none;
 }
 .none {
-  visibility:hidden;
-  display:none;
+  visibility: hidden;
+  display: none;
 }
 .fixed {
-  position:fixed;
+  position: fixed;
 }
