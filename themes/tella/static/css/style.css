@@ -319,11 +319,11 @@ body.scroll-lock {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
-.content a {
+.content a:not(.text-white) {
   color: #007bff;
   word-break: break-all;
 }
-.content a:hover {
+.content a:hover:not(.no-underline) {
   text-decoration: underline;
 }
 .content p {

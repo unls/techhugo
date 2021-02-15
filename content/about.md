@@ -39,4 +39,4 @@ title: '技術科部について'
 
 SVG版とPNG版があります。
 
-[ダウンロード](https://dl.lccs.tech/tclb/TCLB-Logos.zip)
+{{< download ダウンロード "https://dl.lccs.ml/tclb/TCLB-Logos.zip" >}}
