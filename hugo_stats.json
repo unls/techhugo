@@ -51,10 +51,7 @@
       "ul"
     ],
     "classes": [
-      "align-baseline",
-      "align-bottom",
       "align-middle",
-      "align-text-bottom",
       "bg-blue-500",
       "bg-gray-100",
       "bg-gray-200",
@@ -166,7 +163,6 @@
       "max-w-6xl",
       "max-w-7xl",
       "max-w-full",
-      "mb-1",
       "mb-2",
       "mb-3",
       "mb-4",
@@ -215,7 +211,6 @@
       "relative",
       "rounded",
       "rounded-lg",
-      "rounded-md",
       "s-fade-txt",
       "scroll-top",
       "share",
