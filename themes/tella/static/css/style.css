@@ -319,7 +319,7 @@ body.scroll-lock {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
-.content a:not(.text-white) {
+.content a:not(.text-black) {
   color: #007bff;
   word-break: break-all;
 }
