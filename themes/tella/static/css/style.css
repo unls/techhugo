@@ -511,7 +511,7 @@ details[open] #TableOfContents {
   list-style: none;
 }
 #TableOfContents {
-  display:block;
+  display: block;
 }
 .toc summary {
   font-family: inherit;
@@ -597,4 +597,9 @@ details[open] #TableOfContents {
 }
 .fixed {
   position: fixed;
+}
+
+/* other */
+.grecaptcha-badge {
+  visibility: hidden;
 }
