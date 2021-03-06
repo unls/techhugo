@@ -39,7 +39,7 @@ disqusShortname = "intertech-1"
   [[menu.main]]
     identifier = "fes"
     name = "文化祭"
-    url = "https://fes.tclb.cf"
+    url = "https://fes2020.tclb.cf"
     weight = 2
 
   [[menu.main]]
