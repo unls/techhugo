@@ -1,5 +1,6 @@
 baseURL = "https://www.tclb.cf/"
 languageCode = "ja"
+DefaultContentLanguage = "ja"
 title = "技術科部"
 theme = "tella"
 enableRobotsTXT = true

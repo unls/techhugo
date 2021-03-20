@@ -13,7 +13,7 @@
     <div class="mx-3 col-span-3 lg:col-span-2 px-2">
         <h1 class="title text-5xl">{{.Title}}</h1>
         <section class="mb-4">
-            <h4 id="date"><span class="icon-access_time mr-1"></span>{{ .Date.Format "2006/01/02" }} </h4>
+            <h4 id="date"><span class="icon-access_time mr-1"></span><time datetime='{{.Date.Format "2006-01-02"}}'>{{ .Date.Format "2006/01/02" }}</time></h4>
             {{ if .Params.author }}
             <h4><span class="icon-person mr-1"></span>{{.Params.author}}</h4>
             {{ end }}
