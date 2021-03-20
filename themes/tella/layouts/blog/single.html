@@ -1,7 +1,5 @@
 {{ define "meta_tags" }}
-<meta property="og:title" content="{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}" />
 {{ partial "seo/print.html" . }}
-
 {{- with .Site.Params.facebookAppId }}
 <meta property="fb:app_id" content="{{ . }}" />
 {{- end }}
@@ -21,7 +19,7 @@
             {{ end }}
         </section>
         {{ if .Params.image }}
-        <img class="my-4" src="{{ .Params.image | absURL }}">
+        <img class="my-4" src="{{ .Params.image | absURL }}" alt="{{.Title}}">
         {{ end }}
         <details class="toc">
             <summary>目次</summary>
