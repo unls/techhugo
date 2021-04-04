@@ -58,13 +58,6 @@
 {{/* 言語 */}}
 {{- $.Scratch.SetInMap "seo" "locale" "ja_JP" -}}
 
-{{/* Canonical */}}
-{{ with .Params.seo.canonical }}
-  {{- $.Scratch.SetInMap "seo" "canonical" (. | absURL) -}}
-{{ else }}
-{{- $.Scratch.SetInMap "seo" "canonical" .Permalink -}}
-{{ end }}
-
 {{- partial "seo/extend" . -}}
 
 {{ partial "seo/tags" (dict "page" $ "seo" ($.Scratch.Get "seo")) }}
