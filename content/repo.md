@@ -16,4 +16,4 @@ title: 'リポジトリ'
 
 * LightCube  
 
-[https://github.com/opera7133/lcweb](https://github.com/opera7133/lcweb)
+[https://github.com/LightCube-Organization/lcweb](https://github.com/LightCube-Organization/lcweb)
