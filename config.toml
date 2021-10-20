@@ -38,28 +38,22 @@ disqusShortname = "intertech-1"
     weight = 1
 
   [[menu.main]]
-    identifier = "fes"
-    name = "文化祭"
-    url = "https://fes2020.tclb.cf"
-    weight = 2
-
-  [[menu.main]]
     identifier = "blog"
     name = "ブログ"
     url = "/blog/"
-    weight = 3
+    weight = 2
 
   [[menu.main]]
     identifier = "about"
     name = "技術科部について"
     url = "/about/"
-    weight = 4
+    weight = 3
 
   [[menu.main]]
     identifier = "contact"
     name = "お問い合わせ"
     url = "/contact/"
-    weight = 5
+    weight = 4
 
   # Footer Menu
   [[menu.footer]]
