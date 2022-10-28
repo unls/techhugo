@@ -48,12 +48,18 @@ disqusShortname = "intertech-1"
     name = "技術科部について"
     url = "/about/"
     weight = 3
+    
+  [[menu.main]]
+    identifier = "fes"
+    name = "文化祭特設サイト"
+    url = "https://fes.tclb.cf"
+    weight = 4
 
   [[menu.main]]
     identifier = "contact"
     name = "お問い合わせ"
     url = "/contact/"
-    weight = 4
+    weight = 5
 
   # Footer Menu
   [[menu.footer]]
